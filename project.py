@@ -39,7 +39,7 @@ img_lst = col._files
 for img in img_lst:
     # create colour object
     cl = ColorThief(img)
-    # create 5 color palette
+    # create 6 color palette
     palette = cl.get_palette(color_count=6)
     # plot colors
     plt.imshow([[palette[i] for i in range(6)]])
